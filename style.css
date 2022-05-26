@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	top: 0;
+	font-family: 'Nunito', sans-serif;
+	color: #f1f1f1;
+}
+video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background-size: cover;
+}
+.nav-item {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.nav-link {
+	color: black;
+	border-bottom: solid 3px #f1f1f1;
+}
+.nav-link:hover {
+	color: black;
+	border-bottom: 3px solid #02b9d9;
+	transition: all 0.25s ease-out;
+}
+#logo_img {
+	position: absolute;
+	top: 15;
+	left: 10;
+	margin: 0;
+}
+#company-year{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+
+}
+@media only screen and (min-width: 1360px) {
+	#company-year{
+		bottom: 10px;	
+	}
+	p{
+		font-size: 20px;
+	}
+	.h2{
+		font-size: 24px;
+	}
+  }
+  @media only screen and (min-width: 720px) and (max-width: 1360px) {
+	#company-year{
+		bottom: 10px;	
+	}
+	p{
+		font-size: 18px;
+	}
+	.h2{
+		font-size: 18px;
+	}
+  }
+  
+  @media only screen and (min-width: 0px) and (max-width: 720px) {
+	#company-year{
+		bottom: 5px;	
+	}
+	p{
+		font-size: 14px;
+	}
+	.h2{
+		font-size: 14px;
+	}
+  } 

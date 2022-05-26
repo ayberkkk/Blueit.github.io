@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    background-color: #fafafa;
+    font-family: 'Nunito',sans-serif;
+}
+
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: black;
+    border-bottom: solid 3px #f1f1f1;
+}
+
+.nav-link:hover {
+    color: black;
+    border-bottom: 3px solid #02b9d9;
+    transition: all 0.25s ease-out;
+}
+
+#logo_img {
+    position: absolute;
+    top: 15px;
+    left: 10;
+    margin: 0;
+}
+
+#hakkimizdaH1 {
+    visibility: visible;
+    color: #f1f1f1;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#contentH2 {
+    visibility: visible;
+    color: #085A8C;
+}
+
+
+.colH2 {
+    visibility: visible;
+    color: #085A8C;
+}
+
+.kartlar {
+    visibility: visible;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 20px !important;
+    opacity: 0.8;
+
+}
+
+.altCizgi {
+    visibility: visible;
+    background-color: #f1f1f1;
+    opacity: 0.8;
+}
+
+.altCizgiMavi {
+    visibility: visible;
+    background-color: #02b9d9;
+}
+
+.ekipResmi {
+    visibility: visible;
+    height: 50%;
+
+}
+.linkedInLink{
+    color: #085A8C;
+    text-decoration: none;
+}
+.h-p{
+    visibility: visible;
+    height: 150px;
+}
+
+footer{
+    background-color: #212121;
+    color: #f1f1f1;
+
+}
+
+.bg-footer{
+    background-color: #212121;
+    color: #f1f1f1;
+}
+
+footer a{
+    margin: 3px;
+    color: #02b9d9;
+}
+
+#iletisim i{
+
+    margin-right: 15px;
+    color: #02b9d9;
+}
+.linkler a:hover{
+    color:#02b9d9;
+}
+.linkler p{
+    font-size: 18px;
+}
+
+.footerH2{
+    font-size: 40px;
+}
+.footerH5{
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.h-300{
+    height: 300px;
+}
+.ekipResmi{
+    height: 50%;
+}
+
+.h2Hr{
+    width: 12%;
+    margin-left: 0;
+    border-top:2px solid #02b9d9 !important;
+
+}
+.h5Hr{
+    width: 40%;
+    margin-left: 0;
+    border-top:1px solid #02b9d9 !important;
+
+}
+#©{
+    font-size: 12px;
+}
+
+.w-85{
+    width: 85%;
+}
+
+.scrollup {
+     right: 30px;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    display: none;
+    font-size: 30;
+    color: #02b9d9;
+  } 
+
+
+@media only screen and (min-width: 1360px) {
+    .bgİmage{
+        visibility: visible;
+        
+    }
+    p{ visibility: visible; font-size: 16px;}
+    figcaption{font-size: 16px;}
+    #hakkimizdaH1 {
+        font-size: 64px;
+    }
+    
+    #contentH2 {
+        font-size: 40px;
+
+    }
+    
+    .kolon {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    .colH2 {
+        font-size: 32px;
+
+    }
+    
+    .kartlar {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    
+    .altCizgi {
+        width: 128px;
+
+    }
+    
+    .altCizgiMavi {
+        width: 80px;
+    }
+    
+
+
+    .h-photo-col{
+        height: 500px;
+    }
+  
+
+}
+
+
+@media only screen and (min-width: 720px) and (max-width: 1360px) {
+    .bgİmage{
+        visibility: visible;
+    }
+    p{ visibility: visible; font-size: 0.9rem;}
+    figcaption{font-size: 0.9rem;}
+    #hakkimizdaH1 {
+        font-size: 48px;
+    }
+    
+    #contentH2 {
+        font-size: 27.2px;
+
+    }
+    
+    .kolon {
+        padding-left: 33.6px;
+        padding-right: 33.6px;
+    }
+    .colH2 {
+        font-size: 24px;
+
+    }
+    
+    .kartlar {
+        padding-left: 33.6px;
+        padding-right: 33.6px;
+    }
+    
+    .altCizgi {
+        width: 96px;
+
+    }
+    
+    .altCizgiMavi {
+        width: 68px;
+    }
+    
+
+
+    .h-photo-col{
+        height: 400px;
+    }
+    #footerMap{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 720px) {
+    #footerMap{
+        display: none;
+    }
+    .h5Hr{
+        width: 10%;
+        margin-left: 0;
+        border-top:1px solid #02b9d9 !important;
+        margin-top:1px;
+    }
+    .h2Hr{
+        width: 11%;
+        margin-left: 0;
+        border-top:1px solid #02b9d9 !important;
+        margin-top:-7px;
+    
+    }
+    .mobile-box{
+        padding:20px;
+    }
+    .linkler p{
+    font-size: 12px;
+}
+    .footerH2{
+    font-size: 25px;
+    }
+    .footerH5{
+    font-size: 20px;
+    margin-left: 12px;
+    font-weight: 500;
+    }
+    #iletisim i{
+    margin-right: 8px;
+    color: #02b9d9;
+}
+    .bgİmage{
+        visibility: hidden;
+    }
+    p{
+     visibility: visible;
+    font-size: 12.8px;
+}
+    figcaption{font-size: 12.8px;}
+    #hakkimizdaH1 {
+        font-size: 32px;
+    }
+    
+    #contentH2 {
+        font-size: 19.2px;
+
+    }
+    
+    .kolon {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .colH2 {
+        font-size: 16px;
+
+    }
+    
+    .kartlar {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .altCizgi {
+        width: 64px;
+
+    }
+    
+    .altCizgiMavi {
+        width: 40px;
+    }
+    .h-photo-col{
+        height: 200px;
+    }
+}

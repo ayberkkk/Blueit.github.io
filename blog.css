@@ -1,0 +1,1472 @@
+body {
+  margin: 0;
+  background-color: #fafafa;
+  font-family: 'Nunito', sans-serif;
+}
+.nav-item {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-link {
+	color: black;
+	border-bottom: solid 3px #f1f1f1;
+}
+
+.nav-link:hover {
+	color: black;
+	border-bottom: 3px solid #02b9d9;
+	transition: all 0.25s ease-out;
+}
+
+#logo_img {
+	position: absolute;
+	top: 15;
+	left: 10;
+	margin: 0;
+}
+
+
+
+
+
+#headerH1 {
+  visibility: visible;
+  color: #f1f1f1;
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 1500px) {
+  #headerH1{
+    font-size: 64px;
+  }
+}
+@media only screen and (min-width: 720px) and (max-width: 1360px) {
+  #headerH1{
+    font-size: 48px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 720px) {
+  #headerH1{
+    font-size: 32px;
+  }
+} 
+
+@media only screen and (min-width: 1360px) and (max-width: 1500) {
+    #blog_img {
+  position: relative;
+  margin-top: -15px;
+  z-index: -1;
+  opacity: 0.5;
+}
+#blog_img img {
+  width: 100%;
+  height: 35%;
+}
+#blog_img h2 {
+  color: #f1f1f1;
+  font-size: 70px;
+  margin-top: -130px;
+  text-align: center;
+  font-family: 'Nunito',sans-serif;
+  font-weight: 500;
+}
+
+.card-title{
+  font-family: "Nunito", bold;
+  color: #212121;
+  font-size: 20px;
+}
+.card-text {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: left;
+  padding-top: 5px;
+  color:#111;
+  font-size: 18px;
+}
+.card{
+  max-width:70%; 
+  max-height: 80%;
+  margin-top:100;
+  margin-left: 20px;
+}
+.card-img{
+  margin-left: 20px;
+  max-width: 70%;
+  margin-left: 50px;
+  margin-top: 15;
+}
+ .slender-box{
+       background-color: #fafafa;
+    width: 20%;
+    height: 85%;
+    border: 1px solid gainsboro;
+    margin-left: 1500px;
+    margin-top: -1470px;
+    border-radius: 25px;
+    padding: 5;
+ }  
+ .slender-box h5{
+   font-size: 25;
+   font-weight: 500;
+   font-family: "Nunito",bold;
+   text-align: center;
+   margin-top: 10px;
+ }
+ #sb-ic{
+   height:5%;
+   width:100%;
+   margin-top: 20px;
+ }
+ #sb-ic a{
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  color: #111;
+ }
+ #sb-ic p{
+   text-align: center;
+ }
+ #sb-ic a:hover{
+  color: #02b9d9;
+ }
+ #footer {
+  position: absolute;
+  background-color: #212121;
+  top: 2000px;
+  width: 100%;
+  height: 65%;
+  z-index: -1;
+}
+#title h4 {
+  position: absolute;
+  margin-top: 40;
+  padding-left: 30px;
+  font-weight: 500;
+  font-size: 40px;
+  font-family: "Nunito", sans-serif;
+  color: #f1f1f1;
+}
+#title_info {
+  color: #f1f1f1;
+  font-family: "Nunito", sans-serif;
+}
+#title hr {
+  position: absolute;
+  width: 5%;
+  height: 0.2%;
+  margin-top: 100;
+  margin-left: 30;
+  border-radius: 25;
+  background-color: #02b9d9;
+}
+#title p {
+  position: absolute;
+  font-size: 18;
+  margin-top: 110;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.iletisim_info h4 {
+  position: absolute;
+  margin-left: 750;
+  margin-top: 55px;
+  font-size: 25px;
+  color: #f1f1f1;
+  font-weight: 500;
+
+}
+.iletisim_info hr {
+  position: absolute;
+  width: 5%;
+  height: 0.2%;
+  margin-top: 100;
+  margin-left: 765;
+  color: #02b9d9;
+  background-color: #02b9d9;
+  border-radius: 25px;
+}
+.iletisim_info i {
+  position: absolute;
+  color: #02b9d9;
+  margin-left: 740;
+  margin-top: 20;
+}
+.iletisim_info p {
+  position: absolute;
+  margin-left: 765;
+  margin-top: 115;
+  color: #f1f1f1;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+}
+.company-year {
+  position: absolute;
+  margin-left: 680;
+  margin-top:250;
+}
+.company-year h5{
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  color: #f1f1f1;
+}
+.footerinfo iframe {
+  position: absolute;
+  margin-left: 1200;
+  margin-top: -150px;
+  width: 550;
+  height: 300px;
+
+}
+#medium_icon{
+  position: absolute;
+  width: 30%;
+  margin-top: -20;
+  margin-left:10;
+}
+#social_media {
+  position: absolute;
+  width: 250;
+  height: auto;
+  margin-top: 1000;
+  padding-left: 20;
+  
+}
+#social_media i {
+  color: #02b9d9;
+  font-size: 22px;
+  padding: 5px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1360px) {
+     #headerH1{
+    font-size: 64px;
+  }
+  .bgİmage{
+    visibility: visible;
+    background-image: url("../resimler/yatayblog.jpg");
+  }
+.menu_logo{
+  position: absolute;
+  width: 5%;
+  height: 10%;
+  margin-left: 10;
+  margin-top: -12;
+}
+.scrollup {
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    display: none;
+    font-size: 30;
+    color: #02b9d9;
+}
+.scrollup:hover{
+  color: #02b9d9;
+}
+#blog_img {
+  position: relative;
+  margin-top: -15px;
+  z-index: -1;
+  opacity: 0.5;
+}
+#blog_img img {
+  width: 100%;
+  height: 35%;
+}
+#blog_img h2 {
+  color: #f1f1f1;
+  font-size: 70px;
+  margin-top: -130px;
+  text-align: center;
+  font-family: 'Nunito',sans-serif;
+  font-weight: 500;
+}
+
+.card-title{
+  font-family: "Nunito", bold;
+  color: #212121;
+  font-size: 20px;
+}
+.card-text {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: left;
+  padding-top: 5px;
+  color:#111;
+  font-size: 18px;
+}
+.card{
+  max-width:70%; 
+  max-height: 80%;
+  margin-top:100;
+  margin-left: 20px;
+}
+.card-img{
+  margin-left: 20px;
+  max-width: 70%;
+  margin-left: 50px;
+  margin-top: 15;
+}
+ .slender-box{
+   background-color: #fafafa;
+   width: 20%;
+   height: 85%;
+   border: 1px solid gainsboro;
+   margin-left: 1146;
+   margin-top: -1190px;
+   border-radius: 25px;
+   padding: 5;
+ }  
+ .slender-box h5{
+   font-size: 25;
+   font-weight: 500;
+   font-family: "Nunito",bold;
+   text-align: center;
+   margin-top: 10px;
+ }
+ #sb-ic{
+   height:5%;
+   width:100%;
+   margin-top: 20px;
+ }
+ #sb-ic a{
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  color: #111;
+ }
+ #sb-ic p{
+   text-align: center;
+ }
+ #sb-ic a:hover{
+  color: #02b9d9;
+ }
+#footer {
+  position: absolute;
+  background-color: #212121;
+  top: 1600px;
+  width: 100%;
+  height: 65%;
+  z-index: -1;
+}
+#title h4 {
+  position: absolute;
+  margin-top: 40;
+  padding-left: 30px;
+  font-weight: 500;
+  font-size: 40px;
+  font-family: "Nunito", sans-serif;
+  color: #f1f1f1;
+}
+#title_info {
+  color: #f1f1f1;
+  font-family: "Nunito", sans-serif;
+}
+#title hr {
+  position: absolute;
+  width: 5%;
+  height: 0.2%;
+  margin-top: 100;
+  margin-left: 30;
+  border-radius: 25;
+  background-color: #02b9d9;
+}
+#title p {
+  position: absolute;
+  font-size: 18;
+  margin-top: 110;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.iletisim_info h4 {
+  position: absolute;
+  margin-left: 620;
+  margin-top: 55px;
+  font-size: 25px;
+  color: #f1f1f1;
+  font-weight: 500;
+
+}
+.iletisim_info hr {
+  position: absolute;
+  width: 5%;
+  height: 0.2%;
+  margin-top: 100;
+  margin-left: 620;
+  color: #02b9d9;
+  background-color: #02b9d9;
+  border-radius: 25px;
+}
+.iletisim_info i {
+  position: absolute;
+  color: #02b9d9;
+  margin-left: 600;
+  margin-top: 20;
+}
+.iletisim_info p {
+  position: absolute;
+  margin-left: 630;
+  margin-top: 115;
+  color: #f1f1f1;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+}
+.company-year {
+  position: absolute;
+  margin-left: 680;
+  margin-top:250;
+}
+.company-year h5{
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  color: #f1f1f1;
+}
+.footerinfo iframe {
+  position: absolute;
+  margin-left: 850px;
+  margin-top: -150px;
+  width: 550;
+  height: 300px;
+
+}
+#medium_icon{
+  position: absolute;
+  width: 30%;
+  margin-top: -20;
+  margin-left:10;
+}
+#social_media {
+  position: absolute;
+  width: 250;
+  height: auto;
+  margin-top: 765;
+  padding-left: 20;
+  
+}
+#social_media i {
+  color: #02b9d9;
+  font-size: 22px;
+  padding: 5px;
+}
+	
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1359px) {
+	.bgİmage{
+    visibility: visible;
+    background-image: url("../resimler/blog.jpg");
+  }
+
+  .scrollup {
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    display: none;
+    font-size: 30;
+    color: #02b9d9;
+  }
+.scrollup:hover{
+  color: #02b9d9;
+}
+#blog_img {
+  position: relative;
+  margin-top: -15px;
+  z-index: -1;
+  opacity: 0.5;
+}
+#blog_img img {
+  width: 100%;
+  height: 35%;
+}
+#blog_img h2 {
+  color: #f1f1f1;
+  font-size: 70px;
+  margin-top: -150px;
+  text-align: center;
+  font-family: 'Nunito',sans-serif;
+  font-weight: 500;
+}
+
+.card-title{
+  font-family: "Nunito", bold;
+  color: #212121;
+  font-size: 20px;
+}
+.card-text {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: left;
+  padding-top: 5px;
+  color:#111;
+  font-size: 18px;
+}
+.card{
+  max-width:70%; 
+  max-height: 80%;
+  margin-top: 110;
+  margin-left: 150px;
+}
+.card-img{
+  margin-left: 20px;
+  max-width: 70%;
+  margin-left: 50px;
+  margin-top: 15;
+}
+ .slender-box{
+   width: 0;
+   height: 0;
+   
+ }  
+ .slender-box h5{
+   font-size:0;
+}
+ #sb-ic{
+   height:0;
+   width:0;
+   
+ }
+ #sb-ic a{
+  font-size: 0;
+  
+ }
+ #sb-ic p{
+   font-size:0;
+ }
+
+#footer {
+  position: absolute;
+  background-color: #212121;
+  margin-top:50px;
+  width: 100%;
+  height: 320px;
+  z-index: -1;
+}
+#title h4 {
+  position: absolute;
+  margin-top: 40;
+  padding-left: 30px;
+  font-weight: 500;
+  font-size: 40px;
+  font-family: "Nunito", sans-serif;
+  color: #f1f1f1;
+}
+#title_info {
+  color: #f1f1f1;
+  font-family: "Nunito", sans-serif;
+}
+#title hr {
+  position: absolute;
+  width: 5%;
+  height: 0.2%;
+  margin-top: 100;
+  margin-left: 30;
+  border-radius: 25;
+  background-color: #02b9d9;
+}
+#title p {
+  position: absolute;
+  font-size: 18;
+  margin-top: 110;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.iletisim_info h4 {
+  position: absolute;
+  margin-left: 620;
+  margin-top: 55px;
+  font-size: 25px;
+  color: #f1f1f1;
+  font-weight: 500;
+
+}
+.iletisim_info hr {
+  position: absolute;
+  width: 5%;
+  height: 0.2%;
+  margin-top: 100;
+  margin-left: 620;
+  color: #02b9d9;
+  background-color: #02b9d9;
+  border-radius: 25px;
+}
+.iletisim_info i {
+  position: absolute;
+  color: #02b9d9;
+  margin-left: 600;
+  margin-top: 20;
+}
+.iletisim_info p {
+  position: absolute;
+  margin-left: 630;
+  margin-top: 115;
+  color: #f1f1f1;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+}
+.company-year {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ margin-top:100px;
+  
+}
+.company-year h5{
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  color: #f1f1f1;
+  margin-top:0;
+  margin-bottom:0;
+  text-align:center;
+}
+.footerinfo iframe {
+  position: absolute;
+      display:none;
+  width: 0px;
+  height: 0px;
+
+}
+#medium_icon{
+  position: absolute;
+  width: 35%;
+  margin-top: -25;
+  margin-left: 15;
+}
+#social_media {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  margin-top:200px;
+  padding-left:20px;
+  
+}
+#social_media i {
+  color: #02b9d9;
+  font-size: 30px;
+  padding: 5px;
+}
+	
+}
+
+@media only screen and (min-width: 720px) and (max-width: 959px) {
+	.bgİmage{
+    visibility: visible;
+    background-image: url("../resimler/blog.jpg");
+  }
+  .scrollup {
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    display: none;
+    font-size: 30;
+    color: #02b9d9;
+  }
+.scrollup:hover{
+  color: #02b9d9;
+}
+#blog_img {
+	margin-top:-1rem;
+  position: relative;
+  z-index: -1;
+  opacity: 0.5;
+}
+#blog_img img {
+  width: 100%;
+  height: 200;
+}
+#blog_img h2 {
+  color: #f1f1f1;
+  font-size: 70px;
+  margin-top: -120px;
+  text-align: center;
+  font-family: 'Nunito',sans-serif;
+  font-weight: 500;
+}
+
+.card-title{
+  font-family: "Nunito", bold;
+  color: #212121;
+  font-size: 20px;
+}
+.card-text {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: left;
+  padding-top: 5px;
+  color:#111;
+  font-size: 18px;
+}
+.card{
+  max-width:70%; 
+  max-height: 80%;
+  margin-top: 60;
+  margin-left: auto;
+  margin-right:auto;
+  display:block;
+}
+.card-img{
+  margin-left: 20px;
+  max-width: 70%;
+  margin-left: 50px;
+  margin-top: 15;
+}
+ .slender-box{
+   width: 0;
+   height: 0;
+   
+ }  
+ .slender-box h5{
+   font-size: 0;
+
+ }
+ #sb-ic{
+   height:0;
+   width:0;
+
+ }
+ #sb-ic a{
+  font-size: 0px;
+ }
+ #sb-ic p{
+   font-size:0;
+ }
+ 
+#footer {
+  position: absolute;
+  background-color: #212121;
+  width: 100%;
+  height: 350px;
+  margin-top:55px;
+  z-index: -1;
+  margin-bottom:0;
+}
+#title h4 {
+  position: absolute;
+  margin-top: 40;
+  padding-left: 30px;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  color: #f1f1f1;
+}
+#title_info {
+  color: #f1f1f1;
+  font-family: "Nunito", sans-serif;
+}
+#title hr {
+  position: absolute;
+  width: 5%;
+  height: 0.2%;
+  margin-top: 80;
+  margin-left: 30;
+  border-radius: 25;
+  background-color: #02b9d9;
+}
+#title p {
+	display:inline-block;
+  position: absolute;
+  font-size: 12px;
+  margin-top: 80;
+  margin-left: 30px;
+  font-size: 18px;
+
+}
+
+.iletisim_info h4 {
+  position: absolute;
+  margin-left: 30;
+  margin-top: 140;
+  font-size: 20px;
+  color: #f1f1f1;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+}
+.iletisim_info hr {
+  position: absolute;
+  width: 5%;
+  height: 0.2%;
+  margin-top: 165;
+  margin-left: 30;
+  color: #02b9d9;
+  background-color: #02b9d9;
+  border-radius: 25px;
+}
+.iletisim_info i {
+  position: absolute;
+  color: #02b9d9;
+  margin-left: 25;
+  margin-top: 80;
+}
+.iletisim_info p {
+  position: absolute;
+  margin-left: 50;
+  margin-top: 175;
+  color: #f1f1f1;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  
+}
+.company-year {
+ 
+  margin-top:70;
+}
+.company-year h5{
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  color: #f1f1f1;
+  text-align:center;
+}
+
+.footerinfo{
+	width:100%;
+	height:250px;
+}
+
+.footerinfo iframe {
+  width: 0px;
+  height: 0px;
+  display:none;
+}
+#medium_icon{
+  position: absolute;
+  width: 8%;
+  margin-top: -15;
+  margin-left: 15 ;
+
+}
+#social_media {
+  display:inline-block;
+  width:250px;
+  height: 40;
+  padding-left: 25;
+  margin-top:160px;
+}
+#social_media i {
+  color: #02b9d9;
+  font-size: 20;
+  padding: 5px;
+}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 719px) {
+	.bgİmage{
+    visibility: visible;
+    background-image: url("../resimler/blog.jpg");
+  }
+  .scrollup {
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    display: none;
+    font-size: 30;
+    color: #02b9d9;
+  }
+  .scrollup:hover{
+    color: #02b9d9;
+  }
+  #blog_img {
+    margin-top:-1rem;
+    position: relative;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  #blog_img img {
+    width: 100%;
+    height: 200;
+  }
+  #blog_img h2 {
+    color: #f1f1f1;
+    font-size: 70px;
+    margin-top: -120px;
+    text-align: center;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 500;
+  }
+  
+  .card-title{
+    font-family: "Nunito", bold;
+    color: #212121;
+    font-size: 20px;
+  }
+  .card-text {
+    font-family: "Nunito Sans", sans-serif;
+    text-align: left;
+    padding-top: 5px;
+    color:#111;
+    font-size: 18px;
+  }
+  .card{
+    max-width:70%; 
+    max-height: 80%;
+    margin-top: 60;
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+  }
+  .card-img{
+    margin-left: 20px;
+    max-width: 70%;
+    margin-left: 50px;
+    margin-top: 15;
+  }
+   .slender-box{
+     width: 0;
+     height: 0;
+     
+   }  
+   .slender-box h5{
+     font-size: 0;
+  
+   }
+   #sb-ic{
+     height:0;
+     width:0;
+  
+   }
+   #sb-ic a{
+    font-size: 0px;
+   }
+   #sb-ic p{
+     font-size:0;
+   }
+   
+  #footer {
+    position: absolute;
+    background-color: #212121;
+    width: 100%;
+    height: 350px;
+    margin-top:55px;
+    z-index: -1;
+    margin-bottom:0;
+  }
+  #title h4 {
+    position: absolute;
+    margin-top: 20;
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: "Nunito", sans-serif;
+    color: #f1f1f1;
+  }
+  #title_info {
+    color: #f1f1f1;
+    font-family: "Nunito", sans-serif;
+  }
+  #title hr {
+    position: absolute;
+    width: 5%;
+    height: 0.2%;
+    margin-top: 50;
+    margin-left: 30;
+    border-radius: 25;
+    background-color: #02b9d9;
+  }
+  #title p {
+
+    position: absolute;
+    font-size: 12px;
+    margin-top: 50;
+    margin-left: 30px;
+    font-size: 18px;
+  
+  }
+  
+  .iletisim_info h4 {
+    position: absolute;
+    margin-left: 30;
+    margin-top: 140;
+    font-size: 20px;
+    color: #f1f1f1;
+    font-weight: 500;
+    font-family: "Nunito", sans-serif;
+  }
+  .iletisim_info hr {
+    position: absolute;
+    width: 5%;
+    height: 0.2%;
+    margin-top: 165;
+    margin-left: 30;
+    color: #02b9d9;
+    background-color: #02b9d9;
+    border-radius: 25px;
+  }
+  .iletisim_info i {
+    position: absolute;
+    color: #02b9d9;
+    margin-left: 25;
+    margin-top: 80;
+  }
+  .iletisim_info p {
+    position: absolute;
+    margin-left: 50;
+    margin-top: 175;
+    color: #f1f1f1;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    
+  }
+  .company-year {
+   
+    margin-top:70;
+  }
+  .company-year h5{
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    color: #f1f1f1;
+    text-align:center;
+  }
+  
+  .footerinfo{
+    width:100%;
+    height:250px;
+  }
+  
+  .footerinfo iframe {
+    width: 0px;
+    height: 0px;
+      display:none;
+  }
+  #medium_icon{
+    position: absolute;
+    width: 15%;
+    margin-top: -20;
+    margin-left: 10 ;
+  
+  }
+  #social_media {
+    display:inline-block;
+    width:250px;
+    height: 40;
+    padding-left: 25;
+    margin-top:160px;
+  }
+  #social_media i {
+    color: #02b9d9;
+    font-size: 20;
+    padding: 5px;
+  }
+  
+  }
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+	.bgİmage{
+    visibility: hidden;
+    
+  }
+  .scrollup {
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    display: none;
+    font-size: 30;
+    color: #02b9d9;
+  }
+    .scrollup:hover{
+      color: #02b9d9;
+    }
+    #blog_img {
+      margin-top:-1rem;
+      position: relative;
+      z-index: -1;
+      opacity: 0.5;
+    }
+    #blog_img img {
+      width: 100%;
+      height: 200;
+    }
+    #blog_img h2 {
+      color: #f1f1f1;
+      font-size: 70px;
+      margin-top: -120px;
+      text-align: center;
+      font-family: 'Nunito',sans-serif;
+      font-weight: 500;
+    }
+    
+    .card-title{
+     font-family: "Nunito";
+        color: #212121;
+        font-size: 13px;
+    }
+    .card-text {
+    font-family: "Nunito Sans", sans-serif;
+    text-align: left;
+    color: #111;
+    font-size: 13px;
+    }
+    .card{
+      visibility: visible;
+      max-width:70%; 
+      max-height: 80%;
+      margin-top: 60;
+      margin-left: auto;
+      margin-right:auto;
+      display:block;
+    }
+    .card-img{
+      margin-left: 20px;
+      max-width: 70%;
+      margin-left: 50px;
+      margin-top: 15;
+    }
+     .slender-box{
+       width: 0;
+       height: 0;
+       
+     }  
+     .slender-box h5{
+       font-size: 0;
+    
+     }
+     #sb-ic{
+       height:0;
+       width:0;
+    
+     }
+     #sb-ic a{
+      font-size: 0px;
+     }
+     #sb-ic p{
+       font-size:0;
+     }
+     
+    #footer {
+      position: absolute;
+      background-color: #212121;
+      width: 100%;
+      height: 350px;
+      margin-top:55px;
+      z-index: -1;
+      margin-bottom:0;
+    }
+    #title h4 {
+      position: absolute;
+      margin-top: 20;
+      padding-left: 30px;
+      font-weight: 500;
+      font-size: 25px;
+      font-family: "Nunito", sans-serif;
+      color: #f1f1f1;
+    }
+    #title_info {
+      color: #f1f1f1;
+      font-family: "Nunito", sans-serif;
+    }
+    #title hr {
+      position: absolute;
+      width: 5%;
+      height: 0.2%;
+      margin-top: 50;
+      margin-left: 30;
+      border-radius: 25;
+      background-color: #02b9d9;
+    }
+    #title p {
+  
+      position: absolute;
+      font-size: 12px;
+      margin-top: 50;
+      margin-left: 30px;
+      font-size: 15px;
+    
+    }
+    
+    .iletisim_info h4 {
+      position: absolute;
+      margin-left: 30;
+      margin-top: 140;
+      font-size: 20px;
+      color: #f1f1f1;
+      font-weight: 500;
+      font-family: "Nunito", sans-serif;
+    }
+    .iletisim_info hr {
+      position: absolute;
+      width: 5%;
+      height: 0.2%;
+      margin-top: 165;
+      margin-left: 30;
+      color: #02b9d9;
+      background-color: #02b9d9;
+      border-radius: 25px;
+    }
+    .iletisim_info i {
+      position: absolute;
+      color: #02b9d9;
+      margin-left: 25;
+      margin-top: 80;
+    }
+    .iletisim_info p {
+      position: absolute;
+      margin-left: 50;
+      margin-top: 175;
+      color: #f1f1f1;
+      font-family: "Nunito", sans-serif;
+      font-size: 12px;
+      
+    }
+    .company-year {
+     
+      margin-top:70;
+    }
+    .company-year h5{
+      font-family: "Nunito", sans-serif;
+      font-size: 12px;
+      color: #f1f1f1;
+      text-align:center;
+    }
+    
+    .footerinfo{
+      width:100%;
+      height:250px;
+    }
+    
+    .footerinfo iframe {
+      width: 0px;
+      height: 0px;
+          display:none;
+    }
+    #medium_icon{
+    position: absolute;
+    width: 18.5%;
+    margin-top: -14px;
+    margin-left: 16px;
+    
+    }
+    #social_media {
+      display:inline-block;
+      width:250px;
+      height: 40;
+      padding-left: 25;
+      margin-top:160px;
+    }
+    #social_media i {
+      color: #02b9d9;
+      font-size: 20;
+      padding: 5px;
+    }
+    
+    }
+
+@media only screen and (max-width: 300px){
+	
+  .scrollup {
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    display: none;
+    font-size: 30;
+    color: #02b9d9;
+  }
+      .scrollup:hover{
+        color: #02b9d9;
+      }
+      #blog_img {
+        margin-top:-1rem;
+        position: relative;
+        z-index: -1;
+        opacity: 0.5;
+      }
+      #blog_img img {
+        width: 100%;
+        height: 200;
+      }
+      #blog_img h2 {
+        color: #f1f1f1;
+        font-size: 70px;
+        margin-top: -120px;
+        text-align: center;
+        font-family: 'Nunito',sans-serif;
+        font-weight: 500;
+      }
+      
+      .card-title{
+        font-family: "Nunito", bold;
+        color: #212121;
+        font-size: 20px;
+      }
+      .card-text {
+        font-family: "Nunito Sans", sans-serif;
+        text-align: left;
+        padding-top: 5px;
+        color:#111;
+        font-size: 18px;
+      }
+      .card{
+        max-width:70%; 
+        max-height: 80%;
+        margin-top: 60;
+        margin-left: auto;
+        margin-right:auto;
+        display:block;
+      }
+      .card-img{
+        margin-left: 20px;
+        max-width: 70%;
+        margin-left: 50px;
+        margin-top: 15;
+      }
+       .slender-box{
+         width: 0;
+         height: 0;
+         
+       }  
+       .slender-box h5{
+         font-size: 0;
+      
+       }
+       #sb-ic{
+         height:0;
+         width:0;
+      
+       }
+       #sb-ic a{
+        font-size: 0px;
+       }
+       #sb-ic p{
+         font-size:0;
+       }
+       
+      #footer {
+        position: absolute;
+        background-color: #212121;
+        width: 100%;
+        height: 350px;
+        margin-top:55px;
+        z-index: -1;
+        margin-bottom:0;
+      }
+      #title h4 {
+        position: absolute;
+        margin-top: 20;
+        padding-left: 30px;
+        font-weight: 500;
+        font-size: 25px;
+        font-family: "Nunito", sans-serif;
+        color: #f1f1f1;
+      }
+      #title_info {
+        color: #f1f1f1;
+        font-family: "Nunito", sans-serif;
+      }
+      #title hr {
+        position: absolute;
+        width: 5%;
+        height: 0.2%;
+        margin-top: 50;
+        margin-left: 30;
+        border-radius: 25;
+        background-color: #02b9d9;
+      }
+      #title p {
+    
+        position: absolute;
+        font-size: 12px;
+        margin-top: 50;
+        margin-left: 30px;
+        font-size: 15px;
+      
+      }
+      
+      .iletisim_info h4 {
+        position: absolute;
+        margin-left: 30;
+        margin-top: 140;
+        font-size: 20px;
+        color: #f1f1f1;
+        font-weight: 500;
+        font-family: "Nunito", sans-serif;
+      }
+      .iletisim_info hr {
+        position: absolute;
+        width: 5%;
+        height: 0.2%;
+        margin-top: 165;
+        margin-left: 30;
+        color: #02b9d9;
+        background-color: #02b9d9;
+        border-radius: 25px;
+      }
+      .iletisim_info i {
+        position: absolute;
+        color: #02b9d9;
+        margin-left: 25;
+        margin-top: 80;
+      }
+      .iletisim_info p {
+        position: absolute;
+        margin-left: 50;
+        margin-top: 175;
+        color: #f1f1f1;
+        font-family: "Nunito", sans-serif;
+        font-size: 12px;
+        
+      }
+      .company-year {
+       
+        margin-top:70;
+      }
+      .company-year h5{
+        font-family: "Nunito", sans-serif;
+        font-size: 12px;
+        color: #f1f1f1;
+        text-align:center;
+      }
+      
+      .footerinfo{
+        width:100%;
+        height:250px;
+      }
+      
+      .footerinfo iframe {
+        width: 0px;
+        height: 0px;
+      display:none;
+      }
+      #medium_icon{
+        position: absolute;
+        width: 20%;
+        margin-top: -21;
+        margin-left: 12 ;
+      
+      }
+      #social_media {
+        display:inline-block;
+        width:250px;
+        height: 40;
+        padding-left: 25;
+        margin-top:160px;
+      }
+      #social_media i {
+        color: #02b9d9;
+        font-size: 20;
+        padding: 5px;
+      }
+      
+      }
+
+

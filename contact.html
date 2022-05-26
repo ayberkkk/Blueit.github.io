@@ -1,0 +1,124 @@
+<head>
+  <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <!--#Bootstrap Library-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- #CSS -->
+  <link rel="stylesheet" href="../css/contact.css" media="screen" />
+  <!-- Short Logo -->
+  <link rel="shortcut icon"  href="/resimler/favicon.png" type="image/x-icon" />
+  <!-- Nunito Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&display=swap"
+    rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/7cf8c09f87.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <title>İletişim</title>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color: #f1f1f1;">
+
+    <div class="container">
+      <a href="index.html" class="navbar-brand"><img id="logo_img" src="../resimler/blueit_logo_cropped.png"
+          style="width: 70px;"></a>
+
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarCollapse">
+       <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../services.html" class="nav-link">Hizmetlerimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../about.html" class="nav-link ">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../sss.html" class="nav-link">S.S.S</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../contact.html" class="nav-link">İletişim</a>
+                    </li>
+                </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  </nav>
+  <header class="bg-image d-flex justify-content-center align-items-center mt-3 mb-0" style="background-repeat:no-repeat;
+background-image: url('../resimler/header.jpg');
+height: 33vh; opacity: 0.5;
+">
+    <h1 class="" id="headerH1">İletişim</h1>
+  </header>
+
+  <div class="bg-image mt-0 mb-0-imp" style="background-image: url('../resimler/iletişim.jpg">
+    <div id="social_media">
+      <a href="https://www.instagram.com/blueitfuture/" target="blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/company/blueitfuture/" target="blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://twitter.com/Blueitfuture" target="blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.facebook.com/Blueitfuture" target="blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://medium.com/blueit-future" target="blank"><img src="../resimler/medium.png" id="medium_icon" /></a>
+    </div>
+    <div id="contact_box">
+      <hr>
+      <i class="fas fa-map-marker-alt"></i>
+      <p>Dokuz Eylül Üniversitesi Tınaztepe Yerleşkesi<br> Adatepe Mahallesi Doğuş Caddesi <br>No:207/AG Beta Binası
+        Bodrum Kat: B04</p>
+      <br><br><br>
+      <i class="fas fa-phone-alt"></i>
+            <p><a href="tel:+905514568571" style="text-decoration:none;color: inherit;">(+90) 551 456 85 71</a></p>
+    </div>
+   
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.250255743493!2d27.20441455143509!3d38.36633178557599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b9618fb082a33f%3A0xb863aae743ff19ec!2sDEPARK%20Alfa-Beta%20Binalar%C4%B1%20(Dokuz%20Eyl%C3%BCl%20%C3%9Cniversitesi%20Teknopark%C4%B1)!5e0!3m2!1str!2str!4v1651083086359!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div style="clear:both"></div>
+
+    <div id="panel">
+      <p>Bizimle İletişime Geçin !</p>
+      <form action="../send_mail.php" method="post">
+        <input type="text" class="rounded pill" name="name" placeholder="Ad-Soyad" />
+        <br />
+        <br />
+        
+
+        <input type="email" id="email" class="rounded pill" name="email" placeholder="E-mail" pattern=".+@gmail.com" size="30" required>
+
+        <br />
+        <br />
+       
+
+        <input type="text" class="rounded pill" name="subject" placeholder="Konu" />
+        <br />
+        <br />
+       
+
+        <textarea name="message" class="rounded pill" placeholder=" Mesajınız"></textarea>
+        <br />
+        <br />
+
+
+
+        <input type="submit" class="submit" value="Gönder" />
+      </form>
+      <div style='clear:both'></div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+</body>
+<script src="/new/javascript/script.js"></script>
